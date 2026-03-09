@@ -21,8 +21,9 @@ export default async function PostPage({ params }: { params: { slug: string } })
 
   return (
     <main style={{ maxWidth: 800, margin: '0 auto', padding: '40px 24px' }}>
-      <Link href="/" style={{ color: '#555570', textDecoration: 'none', fontSize: 14 }}>
-        ← PopCrash
+      <Link href="/" style={{ display: 'inline-flex', alignItems: 'center', gap: 8, color: '#555570', textDecoration: 'none', fontSize: 14 }}>
+        <img src="/logo.png" alt="PopCrash" style={{ height: 28, width: 'auto' }} />
+        <span>← Voltar</span>
       </Link>
 
       {post.cover_url && (

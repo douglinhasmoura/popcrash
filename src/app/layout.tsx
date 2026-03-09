@@ -4,6 +4,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'PopCrash — Games, Cultura Pop & Entretenimento',
   description: 'As melhores notícias de games, cultura pop e entretenimento.',
+  icons: { icon: '/logo.png' },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

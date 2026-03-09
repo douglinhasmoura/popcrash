@@ -30,9 +30,13 @@ export default async function HomePage({
   return (
     <main style={{ maxWidth: 1100, margin: '0 auto', padding: '40px 24px' }}>
       <header style={{ marginBottom: 48 }}>
-        <h1 style={{ fontSize: 48, fontWeight: 900, color: '#00ff88', letterSpacing: -2 }}>
-          PopCrash
-        </h1>
+        <Link href="/" style={{ display: 'inline-block' }}>
+          <img
+            src="/logo.png"
+            alt="PopCrash"
+            style={{ height: 56, width: 'auto', display: 'block' }}
+          />
+        </Link>
         <p style={{ color: '#555570', marginTop: 8 }}>Games · Cultura Pop · Entretenimento</p>
       </header>
 
